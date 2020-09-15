@@ -1,0 +1,324 @@
+# depslib dependency file v1.0
+1599401470 source:c:\users\r\documents\gcc\vacuumfighter\main.cpp
+	<windows.h>
+	<iostream>
+	<SDL2/SDL.h>
+	"Game.h"
+
+1599409560 source:c:\users\r\documents\gcc\vacuumfighter\config.cpp
+	"Config.h"
+
+1599409460 c:\users\r\documents\gcc\vacuumfighter\config.h
+	<windows.h>
+	<stdio.h>
+	<fcntl.h>
+	<io.h>
+	<iostream>
+	<fstream>
+	<string>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+
+1600194830 source:c:\users\r\documents\gcc\vacuumfighter\game.cpp
+	"Game.h"
+	"Config.h"
+	"Window.h"
+	"Renderer.h"
+	"Keyboard.h"
+	"TextureManager.h"
+	"View.h"
+	"World.h"
+	"GameObject.h"
+	"AnimationManager.h"
+	"MapManager.h"
+
+1599083193 c:\users\r\documents\gcc\vacuumfighter\game.h
+	<windows.h>
+	<stdio.h>
+	<fcntl.h>
+	<io.h>
+	<iostream>
+	<fstream>
+	<string>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+
+1599402491 c:\users\r\documents\gcc\vacuumfighter\window.h
+	<windows.h>
+	<stdio.h>
+	<fcntl.h>
+	<io.h>
+	<iostream>
+	<fstream>
+	<string>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+
+1599597687 source:c:\users\r\documents\gcc\vacuumfighter\renderer.cpp
+	"Renderer.h"
+	"Window.h"
+	"Config.h"
+
+1599597228 c:\users\r\documents\gcc\vacuumfighter\renderer.h
+	<windows.h>
+	<stdio.h>
+	<fcntl.h>
+	<io.h>
+	<iostream>
+	<fstream>
+	<string>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+
+1599402496 source:c:\users\r\documents\gcc\vacuumfighter\window.cpp
+	"Window.h"
+	"Renderer.h"
+
+1599083089 c:\users\r\documents\gcc\vacuumfighter\debug.h
+
+1599409776 source:c:\users\r\documents\gcc\vacuumfighter\keyboard.cpp
+	"Keyboard.h"
+	"Config.h"
+
+1599409719 c:\users\r\documents\gcc\vacuumfighter\keyboard.h
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+
+1600204018 source:c:\users\r\documents\gcc\vacuumfighter\world.cpp
+	"World.h"
+	"View.h"
+	"Renderer.h"
+	"Config.h"
+	"Keyboard.h"
+	"Physics.h"
+	<math.h>
+	"AnimationManager.h"
+	"Background.h"
+	"GUIFuel.h"
+	"GUIRadar.h"
+	"PlayerMovement.h"
+	"SimpleConfig.h"
+	"MapManager.h"
+
+1600192857 c:\users\r\documents\gcc\vacuumfighter\world.h
+	<fstream>
+	<string>
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+
+1599413665 source:c:\users\r\documents\gcc\vacuumfighter\animation.cpp
+	"Animation.h"
+
+1599419308 c:\users\r\documents\gcc\vacuumfighter\animation.h
+	<fstream>
+	<string>
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+
+1600204167 source:c:\users\r\documents\gcc\vacuumfighter\gameobject.cpp
+	"GameObject.h"
+	"View.h"
+	"Renderer.h"
+	"AnimationManager.h"
+	"GUIRadar.h"
+	"TextureManager.h"
+	"PlayerMovement.h"
+	"Physics.h"
+	"math.h"
+
+1600204150 c:\users\r\documents\gcc\vacuumfighter\gameobject.h
+	<fstream>
+	<string>
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+	"Animations.h"
+
+1599483368 source:c:\users\r\documents\gcc\vacuumfighter\texturemanager.cpp
+	"TextureManager.h"
+	"Renderer.h"
+	"Window.h"
+	"FileManager.h"
+
+1599426442 c:\users\r\documents\gcc\vacuumfighter\texturemanager.h
+	<fstream>
+	<string>
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+
+1599418600 c:\users\r\documents\gcc\vacuumfighter\filemanager.h
+	<fstream>
+	<string>
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+	<windows.h>
+	<dirent.h>
+
+1599418612 source:c:\users\r\documents\gcc\vacuumfighter\filemanager.cpp
+	"FileManager.h"
+	"Window.h"
+
+1599582858 source:c:\users\r\documents\gcc\vacuumfighter\singleanimation.cpp
+	"SingleAnimation.h"
+	"TextureManager.h"
+
+1599584550 c:\users\r\documents\gcc\vacuumfighter\singleanimation.h
+	<fstream>
+	<string>
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+
+1600200351 source:c:\users\r\documents\gcc\vacuumfighter\animations.cpp
+	"Animations.h"
+
+1599584541 c:\users\r\documents\gcc\vacuumfighter\animations.h
+	<fstream>
+	<string>
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+	"SingleAnimation.h"
+
+1599597055 c:\users\r\documents\gcc\vacuumfighter\view.h
+	"GameObject.h"
+
+1599598035 source:c:\users\r\documents\gcc\vacuumfighter\view.cpp
+	"View.h"
+	"Renderer.h"
+	"World.h"
+	"Config.h"
+
+1599579057 source:c:\users\r\documents\gcc\vacuumfighter\animationmanager.cpp
+	"AnimationManager.h"
+	"Window.h"
+	"FileManager.h"
+
+1599490073 c:\users\r\documents\gcc\vacuumfighter\animationmanager.h
+	<fstream>
+	<string>
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+	<windows.h>
+	"GameObject.h"
+
+1600203631 source:c:\users\r\documents\gcc\vacuumfighter\physics.cpp
+	"Physics.h"
+	"math.h"
+	<stdlib.h>
+	<time.h>
+
+1600201375 c:\users\r\documents\gcc\vacuumfighter\physics.h
+	"GameObject.h"
+
+1600200423 source:c:\users\r\documents\gcc\vacuumfighter\background.cpp
+	"Background.h"
+	"TextureManager.h"
+	"Renderer.h"
+	"World.h"
+	"View.h"
+	"GameObject.h"
+
+1599657855 c:\users\r\documents\gcc\vacuumfighter\background.h
+	<string>
+
+1599658198 source:c:\users\r\documents\gcc\vacuumfighter\guifuel.cpp
+	"GUIFuel.h"
+	"TextureManager.h"
+	"Renderer.h"
+	"Window.h"
+	"Rules.h"
+
+1599654738 c:\users\r\documents\gcc\vacuumfighter\guifuel.h
+	<fstream>
+	<string>
+	<iostream>
+	"Rules.h"
+
+1599658153 c:\users\r\documents\gcc\vacuumfighter\rules.h
+
+1599576589 source:c:\users\r\documents\gcc\vacuumfighter\rules.cpp
+	"Rules.h"
+	"GUIFuel.h"
+
+1599654622 c:\users\r\documents\gcc\vacuumfighter\playermovement.h
+	"GameObject.h"
+
+1600204189 source:c:\users\r\documents\gcc\vacuumfighter\playermovement.cpp
+	"PlayerMovement.h"
+	"Rules.h"
+	"Physics.h"
+	"GUIFuel.h"
+	"Keyboard.h"
+	"math.h"
+
+1599654143 source:c:\users\r\documents\gcc\vacuumfighter\guiradar.cpp
+	"GUIRadar.h"
+	"World.h"
+	"Config.h"
+	"View.h"
+	"Window.h"
+	"PlayerMovement.h"
+
+1599654142 c:\users\r\documents\gcc\vacuumfighter\guiradar.h
+	"Renderer.h"
+	"GameObject.h"
+
+1600198676 source:c:\users\r\documents\gcc\vacuumfighter\mapmanager.cpp
+	"MapManager.h"
+	"Window.h"
+	"FileManager.h"
+	"World.h"
+	"Rules.h"
+
+1600192851 c:\users\r\documents\gcc\vacuumfighter\mapmanager.h
+	<fstream>
+	<string>
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+	<windows.h>
+	"GameObject.h"
+	"SimpleConfig.h"
+
+1600191901 source:c:\users\r\documents\gcc\vacuumfighter\simpleconfig.cpp
+	"SimpleConfig.h"
+
+1600192284 c:\users\r\documents\gcc\vacuumfighter\simpleconfig.h
+	<fstream>
+	<string>
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+	<windows.h>
+

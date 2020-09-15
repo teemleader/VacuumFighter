@@ -1,0 +1,34 @@
+#ifndef _SINGLEANIMATION_H
+#define _SINGLEANIMATION_H
+
+#include <fstream>
+#include <string>
+#include <iostream>
+#include <vector>
+#include <map>
+#include <SDL2/SDL.h>
+#include <SDL_image.h>
+
+class SingleAnimation {
+
+private:
+    std::vector<SDL_Texture*> frames;
+    unsigned int framesCount = 0;
+    unsigned int currentFrame = 0;
+
+    unsigned int delay = 5;
+    unsigned int counter = 0;
+
+public:
+    SingleAnimation();
+    virtual ~SingleAnimation();
+
+    void AddFrame(SDL_Texture* frame);
+    void AddFrame(const std::string& textureName);
+    void Reset();
+    void Update();
+    SDL_Texture* GetCurrentFrame();
+
+};
+
+#endif // _ANIMATION_H
